@@ -1,0 +1,67 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BookieRookie — Books</title><link rel="stylesheet" href="styles.css"/></head><body>
+
+<header class="site-header">
+  <div class="container topbar">
+    <a class="brand" href="index.html">
+  <span class="brand-badge">BR</span>
+  <span class="bookie">Bookie</span><span class="rookie">Rookie</span>
+</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="books.html" aria-current="page">Books</a>
+      <a href="cart.html">Cart</a>
+      <a href="account.html">Account</a>
+    </nav>
+    <form class="search" role="search" onsubmit="return false">
+      <input class="input" placeholder="Search" />
+    </form>
+  </div>
+</header>
+
+<main class="container">
+  <h1 class="page-title">BOOKS</h1>
+  <div class="controls" aria-label="filters">
+    <select class="select" aria-label="Category">
+      <option>CATEGORY: Romance</option><option> CATEGORY: Non-fiction</option><option>Self-help</option><option>Science</option>
+    </select>
+    <select class="select" aria-label="Sort">
+      <option>SORT: Featured</option><option>Price: Low to High</option><option>Price: High to Low</option><option>Title A–Z</option>
+    </select>
+  </div>
+  <section class="grid" aria-label="Book list">
+    
+    <article class="card"><img class= "cover" src="images/bni.jpg" alt="1984 by George Orwell"><div class="pad">
+      <h3 class="title">Bridgerton: The Duke And I</h3><p class="author">Julia Quinn</p><a class="button" href="cart.html">Add to cart</a>
+    </div></article>
+    <article class="card"><img class= "cover" src="images/twngo.webp" alt="To Kill A Mockingbird by Harper Lee"><div class="pad">
+      <h3 class="title">Things We Never Got Over</h3><p class="author">Lucy Score</p><a class="button" href="cart.html">Add to cart</a>
+    </div></article>
+    <article class="card"><img class= "cover" src="images/twilight.webp" alt="The Great Gatsby"><div class="pad">
+      <h3 class="title">Twilight</h3><p class="author">Stephenie Meyer</p><a class="button" href="cart.html">Add to cart</a>
+    </div></article>
+    <article class="card"><img class= "cover" src="images/princess.jpg" alt="Harry Potter and The Philosopher’s Stone by J.K. Rowling"><div class="pad">
+      <h3 class="title">Princess Daisy</h3><p class="author">Judith Krantz</p><a class="button" href="cart.html">Add to cart</a>
+    </div></article>
+    <article class="card"><img class= "cover" src="images/it ends with.jpg" alt="The Catcher in The Rye by J.D. Salinger"><div class="pad">
+      <h3 class="title">It Ends With Us</h3><p class="author">Collen Hoover</p><a class="button" href="cart.html">Add to cart</a>
+    </div></article>
+    <article class="card"><img class= "cover" src="images/pride and prejustide.webp" alt="Pride and Prejudice by Jane Austen"><div class="pad">
+      <h3 class="title">Pride and Prejudice</h3><p class="author">Jane Austen</p><a class="button" href="cart.html">Add to cart</a>
+    </div></article>
+  </section>
+  <nav class="pagination" aria-label="Pagination">
+    <a class="page" href="#prev" aria-label="Previous page">Prev</a>
+    <a class="page" href="#p1" aria-current="page">1</a>
+    <a class="page" href="#p2">2</a>
+    <a class="page" href="#p3">3</a>
+    <a class="page" href="#next" aria-label="Next page">Next</a>
+  </nav>
+
+</main>
+
+<footer class="footer">
+  <div class="container">© 2025 BookieRookie — Group 7</div>
+</footer>
+</body></html>

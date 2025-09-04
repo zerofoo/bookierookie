@@ -1,0 +1,1 @@
+Open index.html. Layout matches the BookieRookie wireframe with header, search, category/sort, 3x2 grid, add-to-cart buttons, and pagination.
